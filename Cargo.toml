@@ -37,7 +37,7 @@ axfs = { git = "https://github.com/Arceos-crates/axfs.git", optional = true }
 axnet = { git = "https://github.com/Arceos-crates/axnet.git", optional = true }
 axdisplay = { git= "https://github.com/Arceos-crates/axprocess.git", optional = true }
 axtask = { git = "https://github.com/Arceos-crates/axtask.git", optional = true }
-axprocess = { path = "../axprocess", optional = true }
+axprocess = { git = "https://github.com/Arceos-crates/axprocess.git", optional = true }
 axmem = { git = "https://github.com/Arceos-crates/axmem.git", optional = true }
 crate_interface = { git = "https://github.com/Arceos-crates/crate_interface.git" }
 percpu = { git = "https://github.com/Arceos-crates/percpu.git", optional = true }
